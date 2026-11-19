@@ -12,7 +12,7 @@ class UpdateChecker(
     private val url: String = DEFAULT_URL,
 ) {
     companion object {
-        const val DEFAULT_URL = "https://github.com/lordmacu/kino-light/releases/latest/download/latest.json"
+        const val DEFAULT_URL = "https://github.com/freedarwuin/kino-light/releases/latest/download/latest.json"
     }
 
     suspend fun check(currentVersionCode: Int): UpdateInfo? = withContext(Dispatchers.IO) {

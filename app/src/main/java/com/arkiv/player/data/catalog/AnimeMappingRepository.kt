@@ -102,7 +102,7 @@ class AnimeMappingRepository(
 
     companion object {
         private const val DATASET_URL =
-            "https://raw.githubusercontent.com/Fribb/anime-lists/master/anime-list-full.json"
+            "https://raw.githubusercontent.com/freedarwuin/anime-lists/master/anime-list-full.json"
         private const val CACHE_FILE_NAME = "anime-list-full.json"
         private const val TTL_MS = 7L * 24 * 60 * 60 * 1000
 

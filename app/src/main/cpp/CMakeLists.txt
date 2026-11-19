@@ -4,7 +4,7 @@ project(credentials)
 include(FetchContent)
 FetchContent_Declare(
     mbedtls
-    GIT_REPOSITORY https://github.com/Mbed-TLS/mbedtls.git
+    GIT_REPOSITORY https://github.com/freedarwuin/mbedtls.git
     GIT_TAG v3.6.2
     GIT_SHALLOW TRUE
 )
